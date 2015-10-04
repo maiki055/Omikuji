@@ -13,6 +13,13 @@
 		3242F5F61BC19476005C98E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3242F5F51BC19476005C98E7 /* Images.xcassets */; };
 		3242F5F91BC19476005C98E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3242F5F71BC19476005C98E7 /* LaunchScreen.xib */; };
 		3242F6051BC19476005C98E7 /* OmikujiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3242F6041BC19476005C98E7 /* OmikujiTests.swift */; };
+		3242F6161BC1949E005C98E7 /* daikichi.png in Resources */ = {isa = PBXBuildFile; fileRef = 3242F60F1BC1949E005C98E7 /* daikichi.png */; };
+		3242F6171BC1949E005C98E7 /* daikyo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3242F6101BC1949E005C98E7 /* daikyo.png */; };
+		3242F6181BC1949E005C98E7 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 3242F6111BC1949E005C98E7 /* home.png */; };
+		3242F6191BC1949E005C98E7 /* kyou.png in Resources */ = {isa = PBXBuildFile; fileRef = 3242F6121BC1949E005C98E7 /* kyou.png */; };
+		3242F61A1BC1949E005C98E7 /* modoru.png in Resources */ = {isa = PBXBuildFile; fileRef = 3242F6131BC1949E005C98E7 /* modoru.png */; };
+		3242F61B1BC1949E005C98E7 /* omikuji.png in Resources */ = {isa = PBXBuildFile; fileRef = 3242F6141BC1949E005C98E7 /* omikuji.png */; };
+		3242F61C1BC1949E005C98E7 /* tyukichi.png in Resources */ = {isa = PBXBuildFile; fileRef = 3242F6151BC1949E005C98E7 /* tyukichi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		3242F5FE1BC19476005C98E7 /* OmikujiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmikujiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3242F6031BC19476005C98E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3242F6041BC19476005C98E7 /* OmikujiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmikujiTests.swift; sourceTree = "<group>"; };
+		3242F60F1BC1949E005C98E7 /* daikichi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daikichi.png; sourceTree = "<group>"; };
+		3242F6101BC1949E005C98E7 /* daikyo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daikyo.png; sourceTree = "<group>"; };
+		3242F6111BC1949E005C98E7 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		3242F6121BC1949E005C98E7 /* kyou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyou.png; sourceTree = "<group>"; };
+		3242F6131BC1949E005C98E7 /* modoru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = modoru.png; sourceTree = "<group>"; };
+		3242F6141BC1949E005C98E7 /* omikuji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = omikuji.png; sourceTree = "<group>"; };
+		3242F6151BC1949E005C98E7 /* tyukichi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tyukichi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,7 @@
 		3242F5EB1BC19476005C98E7 /* Omikuji */ = {
 			isa = PBXGroup;
 			children = (
+				3242F60E1BC1949E005C98E7 /* images */,
 				3242F5EE1BC19476005C98E7 /* AppDelegate.swift */,
 				3242F5F01BC19476005C98E7 /* ViewController.swift */,
 				3242F5F21BC19476005C98E7 /* Main.storyboard */,
@@ -110,6 +125,20 @@
 				3242F6031BC19476005C98E7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3242F60E1BC1949E005C98E7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3242F60F1BC1949E005C98E7 /* daikichi.png */,
+				3242F6101BC1949E005C98E7 /* daikyo.png */,
+				3242F6111BC1949E005C98E7 /* home.png */,
+				3242F6121BC1949E005C98E7 /* kyou.png */,
+				3242F6131BC1949E005C98E7 /* modoru.png */,
+				3242F6141BC1949E005C98E7 /* omikuji.png */,
+				3242F6151BC1949E005C98E7 /* tyukichi.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +221,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3242F61B1BC1949E005C98E7 /* omikuji.png in Resources */,
+				3242F61C1BC1949E005C98E7 /* tyukichi.png in Resources */,
 				3242F5F41BC19476005C98E7 /* Main.storyboard in Resources */,
+				3242F6161BC1949E005C98E7 /* daikichi.png in Resources */,
+				3242F6191BC1949E005C98E7 /* kyou.png in Resources */,
+				3242F61A1BC1949E005C98E7 /* modoru.png in Resources */,
+				3242F6181BC1949E005C98E7 /* home.png in Resources */,
 				3242F5F91BC19476005C98E7 /* LaunchScreen.xib in Resources */,
 				3242F5F61BC19476005C98E7 /* Images.xcassets in Resources */,
+				3242F6171BC1949E005C98E7 /* daikyo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
