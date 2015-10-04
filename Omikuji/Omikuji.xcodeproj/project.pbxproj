@@ -20,6 +20,7 @@
 		3242F61A1BC1949E005C98E7 /* modoru.png in Resources */ = {isa = PBXBuildFile; fileRef = 3242F6131BC1949E005C98E7 /* modoru.png */; };
 		3242F61B1BC1949E005C98E7 /* omikuji.png in Resources */ = {isa = PBXBuildFile; fileRef = 3242F6141BC1949E005C98E7 /* omikuji.png */; };
 		3242F61C1BC1949E005C98E7 /* tyukichi.png in Resources */ = {isa = PBXBuildFile; fileRef = 3242F6151BC1949E005C98E7 /* tyukichi.png */; };
+		3242F61E1BC1A7B2005C98E7 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3242F61D1BC1A7B2005C98E7 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		3242F6131BC1949E005C98E7 /* modoru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = modoru.png; sourceTree = "<group>"; };
 		3242F6141BC1949E005C98E7 /* omikuji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = omikuji.png; sourceTree = "<group>"; };
 		3242F6151BC1949E005C98E7 /* tyukichi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tyukichi.png; sourceTree = "<group>"; };
+		3242F61D1BC1A7B2005C98E7 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				3242F5F51BC19476005C98E7 /* Images.xcassets */,
 				3242F5F71BC19476005C98E7 /* LaunchScreen.xib */,
 				3242F5EC1BC19476005C98E7 /* Supporting Files */,
+				3242F61D1BC1A7B2005C98E7 /* ResultViewController.swift */,
 			);
 			path = Omikuji;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			files = (
 				3242F5F11BC19476005C98E7 /* ViewController.swift in Sources */,
 				3242F5EF1BC19476005C98E7 /* AppDelegate.swift in Sources */,
+				3242F61E1BC1A7B2005C98E7 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
