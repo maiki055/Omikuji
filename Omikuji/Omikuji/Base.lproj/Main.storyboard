@@ -36,10 +36,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Result View Controller-->
         <scene sceneID="JFk-p9-BYM">
             <objects>
-                <viewController id="Ftd-dJ-6dH" sceneMemberID="viewController">
+                <viewController id="Ftd-dJ-6dH" customClass="ResultViewController" customModule="Omikuji" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Xz8-k4-7iu"/>
                         <viewControllerLayoutGuide type="bottom" id="oKm-2f-bPX"/>
