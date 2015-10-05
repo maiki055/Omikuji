@@ -17,6 +17,7 @@ class ResultViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         print("Hello World")
+        imageView.image = UIImage(named: "kyou.png")
     }
 
     override func didReceiveMemoryWarning() {
