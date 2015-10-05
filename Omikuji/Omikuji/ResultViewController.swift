@@ -17,8 +17,19 @@ class ResultViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         print("Hello World")
-        imageView.image = UIImage(named: "kyou.png")
         let random = arc4random_uniform(4)
+        if (random == 0) {
+            imageView.image = UIImage(named: "kyou.png")
+        }
+        if (random == 1) {
+            imageView.image = UIImage(named: "daikichi.png")
+        }
+        if (random == 2) {
+            imageView.image = UIImage(named: "tyukichi.png")
+        }
+        if (random == 3) {
+            imageView.image = UIImage(named: "daikyo.png")
+        }
     }
 
     override func didReceiveMemoryWarning() {
