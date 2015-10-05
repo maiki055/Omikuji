@@ -10,10 +10,13 @@ import UIKit
 
 class ResultViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        print("Hello World")
     }
 
     override func didReceiveMemoryWarning() {
